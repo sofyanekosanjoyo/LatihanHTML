@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <table border="1">
+    <form action="">
+        <tbody>
+        <tr>
+            <td><label for="username">Username : </label></td>
+            <td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password : </label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td><label for="">Jenis Kelamin : </label></td>
+            <td>
+                <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+                <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Hobi : </label></td>
+            <td>
+                <input type="checkbox" id="menyanyi" name="menyanyi"><label for="menyanyi">Menyanyi</label>
+                <input type="checkbox" id="olahraga" name="olahraga"><label for="olahraga">Olahraga</label>
+                <input type="checkbox" id="ngoding" name="ngoding"><label for="ngoding">Ngoding</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Alamat : </label></td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="kotaasal">Kota Asal :</label></td>
+            <td>
+                <select name="kotaasal" id="kotaasal">
+                <option value="">Jakarta</option>
+                <option value="">Bandung</option>
+                <option value="">Yogyakarta</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit">Kirim</button></td>
+        </tr>
+    </tbody>
+    </form>
+    </table>
+</body>
+</html>
